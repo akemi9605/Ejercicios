@@ -1,0 +1,267 @@
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+#navcabecera {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+}
+
+.navcabeceraopciones{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.navcabecerapromociones {
+    font-size: 20px;
+    color:#ff2d00;
+}
+
+#buscador {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    width: 300px;
+    border: transparent;
+    border-bottom: solid 1px #ccc;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+}
+
+.list-buscador {
+    display: inline-block;
+}
+.women {
+    text-transform: uppercase;
+    font-weight: 700;
+    float: left;
+}
+
+.men {
+    text-transform: uppercase;
+}
+.breadcrumbs {
+    list-style: none;
+    position: relative;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.breadcrumbs li:after {
+    content:'>';
+    color: black;
+    right: 0;
+    top: 0;
+    padding-left: 5px;
+    margin-left: 10px;
+  }
+.breadcrumbs li:last-child:after {
+    content:'';
+}
+
+#formulariocabecera {
+    position: absolute;
+    right: 180px;
+    top: 15px;
+}
+.breadcrumbs li a {
+    color: #d6d6d6;
+    text-decoration:none;
+}
+.breadcrumbs li:last-child a {
+    color: #313131;
+
+}
+
+.main {
+    padding-top: 110px;
+}
+
+.products .product {
+    display: inline-block;
+    width: 20%;
+}
+
+.product-image{
+    max-width: 100%;
+}
+
+.product {
+    padding: 10px;
+    padding-bottom: 23px;
+    
+}
+
+.product-price {
+    font-weight: 600;
+    padding-top: 7px;
+}
+
+.products {
+    text-align: center;
+
+}
+
+.product-name {
+    padding-top: 10px;
+    
+}
+
+.product-image:hover {
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+}
+
+.footer-titulo {
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.footer {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer-name{
+    margin-top: 10px;
+}
+
+.footer-name:hover{
+    text-decoration: underline;
+}
+
+.botonesfooter li{
+    display: inline-block;
+}
+
+.botonesfooter {
+    display: flex;
+}
+
+.botones {
+    border: 1px solid #ededed;
+    padding: 30px;
+    display: flex;
+    width: 100%; 
+}
+
+.botones:hover {
+    background-color: #464646;
+}
+
+.botonesenlace:hover {
+    color: #ffffff;
+}
+
+.botonesenlace {
+    text-decoration: none;
+    color:#464646;
+}
+
+.contenidoantesdefooter {
+    text-align: center;
+}
+
+nav {
+    padding-bottom: 40px;
+}
+
+.buscador {
+    float: right;
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.list-buscador-item {
+    display: inline-block;
+}
+
+.list-buscador {
+    padding-top: 18px;
+}
+
+.contacto {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    font-weight: 700;
+    color: #313131;
+    list-style: none;
+}
+
+.contactohorario {
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    color: #313131;
+    list-style: none;
+}
+
+.contenido {
+    text-align: center;
+}
+
+.darbaja {
+    padding-bottom: 20px;
+}
+
+.contenidofootertitulo {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    color: #313131;
+    padding-top: 60px;
+}
+.contenidofooter {
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 12px;
+
+}
+
+.contenidoaside {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.contacto-telefono {
+    color:#6fd5a4;
+    text-align: center;
+    list-style: none;
+}
+#botonenviar {
+    margin: 10px;
+    padding: 10px 30px;
+    background-color: #fff;
+    border: 1px solid;
+}
