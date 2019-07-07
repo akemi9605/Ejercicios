@@ -1,0 +1,6 @@
+<div class="social-ico">
+    <p class="social-ico__parraf">Síguenos en:</p>
+    <ul *ngFor="let element of social" class="social-ico__ul">
+        <app-social url="{{element.url}}" img="{{element.img}}"></app-social>
+    </ul>
+</div>

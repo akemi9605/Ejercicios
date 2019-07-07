@@ -1,0 +1,17 @@
+<main *ngFor="let section of sections" class="main">
+        <div class="main__div">
+                <p class="section-videos__parraf">{{section.title}}</p>
+                <h2 class="section-videos__h2">{{section.sectionName}}</h2>
+        </div>
+        <div class="button">
+                <button class="button__left">
+                        <</button> <button class="button__right">
+                                >
+                </button> </div>
+        <section class="section-videos">
+                <ul *ngFor="let video of section.videos" class="section-videos__videos">
+                        <app-video h3="{{ video.h3 }}" paragraph="{{ video.paragraph }}" url="{{ video.url }}">
+                        </app-video>
+                </ul>
+        </section>
+</main>
