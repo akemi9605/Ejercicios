@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito compra</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+    <body class="body">
+        <section class="cesta">
+            <h1 class="cesta__title">Resumen de la compra</h1>
+        </section>
+        <section class="section-form">
+            <form class="section-form__form">
+                <p class="total__number">Total de Productos</p>
+                <p class="total__price">Precio Total</p>
+                <input type="text" placeholder="Producto" class="section-form__producto" id="productoNombre">
+                <input type="text" placeholder="Imagen" class="section-form__imagen" id="productoimg">
+                <input type="text" placeholder="Cantidad" class="section-form__cantidad" id="cantidad">
+                <input type="text" placeholder="Precio" class="section-form__precio" id="precio">
+                <button type="button" class="form__button" onclick="addProduct()">Añadir producto</button>
+            </form>
+        </section>
+    </body>
+    <script src="javascript/script.js"></script>
+</html>

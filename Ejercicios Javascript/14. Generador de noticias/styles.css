@@ -1,0 +1,70 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.article-izq {
+  width: 50%;
+}
+
+.article-izq__title {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.article-izq__image {
+  width: 600px;
+  padding-left: 20px;
+}
+
+.article-izq__autor {
+  padding-left: 20px;
+}
+
+.article-izq__parraf {
+  width: 600px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.form {
+  padding: 62px;
+}
+
+.form__titulo {
+  display: block;
+  width: 300px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.form__url {
+  display: block;
+  width: 300px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.form__autor {
+  display: block;
+  width: 300px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.form__parraf {
+  width: 300px;
+  height: 25px;
+  display: block;
+}
+
+.form__button {
+  display: block;
+  width: 304px;
+  height: 30px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

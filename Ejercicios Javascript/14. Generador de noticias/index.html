@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="noticias">
+        <article class="article-izq">
+            <h1 class="article-izq__title">Título</h1>
+            <img src="images/perro.jpg" class="article-izq__image">
+            <p class="article-izq__autor">Autor: Fran Linde</p>
+            <p class="article-izq__parraf">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </article>
+    </section>
+    
+    <section>
+        <form class="form">
+            <input type="text" placeholder="Titulo" class="form__titulo" id="titulo">
+            <input type="text" placeholder="Url imagen" class="form__url" id="url">
+            <input type="text" placeholder="Autor" class="form__autor" id="autor">
+            <input type="text" placeholder="Parrafo" class="form__parraf" id="parraf">
+            <button type="button" class="form__button" onclick="crearNoticia()">Añadir noticia</button>
+        </form>
+    </section>
+
+</body>
+    <script src="script.js"></script>  
+</html>

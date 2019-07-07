@@ -1,0 +1,44 @@
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-form {
+  margin-top: 30px;
+}
+
+.section-form__producto {
+  display: block;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.section-form__cantidad {
+  display: block;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.section-form__precio {
+  display: block;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.section-form__button {
+  background: pink;
+  padding: 10px;
+  border: 1px solid pink;
+  color: #fff;
+  font-weight: 600;
+}
+
+.cesta {
+  width: 50%;
+}
+
+.cesta__title {
+  padding-left: 30px;
+}
+/*# sourceMappingURL=styles.css.map */
