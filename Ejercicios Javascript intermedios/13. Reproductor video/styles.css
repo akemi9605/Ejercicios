@@ -1,0 +1,56 @@
+.hide {
+  display: none;
+}
+
+#video {
+  position: absolute;
+}
+
+.button-play, .button-pause {
+  background-color: #26C394;
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid #26C394;
+  height: 30px;
+  float: left;
+  position: relative;
+  top: 170px;
+  left: 12px;
+}
+
+.button-mute {
+    background-color: #26C394;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #26C394;
+    height: 30px;
+    float: left;
+    position: relative;
+    top: 170px;
+    left: 208px;
+}
+
+.button-left {
+    background-color: #26C394;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #26C394;
+    height: 30px;
+    float: left;
+    position: relative;
+    top: 172px;
+    left: 20px;
+}
+
+.button-right {
+    background-color: #26C394;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #26C394;
+    height: 30px;
+    float: left;
+    position: relative;
+    top: 172px;
+    left: 35px;
+    
+  }
