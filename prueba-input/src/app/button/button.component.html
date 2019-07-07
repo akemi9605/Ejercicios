@@ -1,0 +1,4 @@
+<button (click)="responderClick()">
+    <span *ngIf="buttonTitle.length < 10">{{buttonTitle}}</span>
+    <span *ngIf="buttonTitle.length >= 10">Pulsa aquí</span>
+</button>

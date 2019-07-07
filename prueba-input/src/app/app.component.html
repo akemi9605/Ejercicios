@@ -1,0 +1,14 @@
+<h1>Hola es una prueba</h1>
+  <!--<app-button (userClick)="responderClick($event)"[buttonTitle]="'Aceptar'"></app-button>
+  <app-button (userClick)="responderClick($event)"[buttonTitle]="'Cancelar'"></app-button>
+  <app-button (userClick)="responderClick($event)"></app-button>
+  <app-button (userClick)="responderClick($event)"></app-button>-->
+<!-- SI HAY MAS DE 5 PAISES O MENOS SACO LA LISTA-->
+  <ul *ngIf="paises.length <= 5">
+  <li *ngFor="let pais of paises">{{pais}}</li>
+</ul>
+<!-- SI HAY MAS DE 5 PAISES MUESTRO UN MENSAJE-->
+<p *ngIf="paises.length > 5">Hay muchos paises</p>
+<app-button *ngFor="let pais of paises"
+(userClick)="responderClick($event)"
+[buttonTitle]="pais"></app-button>
