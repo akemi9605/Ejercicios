@@ -1,0 +1,19 @@
+@keyframes moviendose {
+    0% {
+        transform: rotate(45deg);
+    }      
+    100% {
+        transform: rotate(400deg);
+    }
+  }
+.raya {
+    position: absolute;
+    left: 0;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: moviendose;
+}
+
+.circulo {
+    position: relative;
+}

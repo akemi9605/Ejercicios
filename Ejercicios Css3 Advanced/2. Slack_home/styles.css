@@ -1,0 +1,253 @@
+@keyframes saltar {
+    0% {
+        transform: scale(0)
+    }      
+    100% {
+        transform: scale(0.4)
+    }
+  }
+
+.imagehead {
+    width: 100%;
+}
+
+.imagenheadgrande {
+    width: 100%;
+    animation-name: saltar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: ease-in-out;
+}
+
+.logo {
+    width: 100%;
+}
+
+.menucabecera {
+    display: inline-block;
+    width: 140px;
+}
+
+.menucabecera1 {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 15px;
+    color: #1d1d1d;
+}
+
+.head {
+    width: 1200px;
+    text-align: center;
+}
+
+.menu {
+    padding-top: 35px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #611f69!important;
+    border-color: #611f69!important;
+}
+
+.btn, .btn-primary {
+    float: right;
+
+}
+
+.container {
+    width: 1200px;
+}
+
+.tituloheader {
+    text-align: center;
+    font-size: 4rem;
+    font-family: Helvetica;
+    font-weight: 600;
+    padding-top: 40px; 
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #611f69!important;
+    border-color: #611f69!important;
+    width: 250px;
+    height: 60px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.btn-outline-dark {
+    color: #222;
+    background-color: #fff!important;
+    border-color: #222!important;
+    width: 250px;
+    height: 60px;
+    float: left;
+    margin-top: 30px;
+}
+
+.enlacemain {
+    clear: both;
+    padding-top: 15px;
+}
+
+.enlace1 {
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.titlesection {
+    padding-top: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Helvetica;
+}
+
+.parrasection {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    font-family: Helvetica;
+}
+
+.titulosiconos {
+    font-weight: 700;
+    padding-top: 15px;
+    font-family: Helvetica;
+}
+
+.enlaceicono {
+    color: #377cb1;
+    text-decoration: underline;
+}
+
+.enlaceparrafo {
+    margin: 0 auto;
+    color: #1969A6;
+    font-weight: 600;
+    padding-bottom: 90px;
+    padding-top: 40px;
+}
+
+.enlacefinaliconos {
+    color: #1969A6;
+}
+
+.enlacefinaliconos:after {
+    content: '→';
+}
+
+.gris {
+    background-color: #F5F5F5;
+    height: 1000px;
+}
+
+.sectiongris {
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.row {
+    width: 1200px;  
+    margin: 0 auto!important;
+}
+
+.col-3 {
+    text-align: center;
+}
+
+.sectiongriscontenido {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.cajablanca {
+    border: 15px solid #fff;
+}
+
+.cajablancaconlogo {
+    background-color: #fff;
+    height: 130px;
+}
+
+.logos {
+    padding-top: 70px;
+}
+
+.purplesection {
+    background-color: #4A154B;
+    height: 350px;
+    text-align: center;
+}
+
+.button {
+    color:#4A154B;
+    padding: 15px;
+    text-transform: uppercase;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+.parrafopurple {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+    font-family: Helvetica;
+}
+
+.logofooter {
+    width: 100px;
+}
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.titulofooter {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Helvetica;
+}
+
+.subtitulofooter {
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: Helvetica;
+}
+
+.grisoscuro {
+    background-color: #F5F5F5;
+    height: 70px;
+}
+
+.menufooter {
+    display: flex;
+    padding-top: 25px;
+}
+
+.listafinal {
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Helvetica;
+}
+
+.logosmenufooter {
+    display: inline-flex;
+    float: right;
+    padding-right: 20px;
+    margin-top: -40px;
+}
+
+.redesociales {
+    padding-right: 15px;
+}
