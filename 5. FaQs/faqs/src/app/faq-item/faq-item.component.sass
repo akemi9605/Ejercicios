@@ -1,0 +1,41 @@
+
+.app-faq-item
+  &__header
+    position: relative
+    background-color: #5BBDFF
+    color: #FFF
+    padding: 15px
+    border-radius: 5px
+    &--opened
+      background: #ededed
+
+  &__body
+    transform: scaleY(0)
+    overflow: hidden
+    transition: transform 1s ease-in-out
+    height: 0
+    &--opened
+      transform: scaleY(1)
+      height: auto
+    
+
+  &__body-wrapper
+    padding: 10px
+    border: 5px solid #CCC
+
+
+.faq-item-icon
+    position: absolute
+    top: 5px
+    right: 5px
+    font-size: 30px
+    padding: 5px
+
+
+.faq-item-question
+    margin: 0
+
+
+
+          
+      

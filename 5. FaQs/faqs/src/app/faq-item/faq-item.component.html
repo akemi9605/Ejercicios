@@ -1,0 +1,15 @@
+<div class="app-faq-item">
+  <div class="app-faq-item__header" (click)="changeState()"
+    [ngClass]="{'app-faq-item__header--opened': opened == true}">
+    <h2 class="faq-item-question">{{ title }}</h2>
+    <span class="faq-item-icon">
+      <i *ngIf="opened==false" class="fas fa-chevron-down"></i>
+      <i *ngIf="opened==true" class="fas fa-chevron-up"></i>
+    </span>
+  </div>
+  <div class="app-faq-item__body" [ngClass]="{'app-faq-item__body--opened': opened}">
+    <div class="app-faq-item__body-wrapper">
+      {{ body }}
+    </div>
+  </div>
+</div>
