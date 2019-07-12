@@ -1,0 +1,32 @@
+<div class="app-home-component">
+  <h1 class="container">
+    <a routerLink="/home" class="container__routerlink"><img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Fnac_Logo.svg/499px-Fnac_Logo.svg.png"
+        class="container__logo"></a>
+  </h1>
+
+  <ul class="container__list">
+    <li class="container__link"><a routerLink="/home" class="container__link">Home</a></li>
+    <li class="container__link"><a routerLink="/films" class="container__link">Films</a></li>
+    <li class="container__link"><a routerLink="/games" class="container__link">Games</a></li>
+    <li class="container__link"><a routerLink="/discs" class="container__link">Discs</a></li>
+  </ul>
+</div>
+<section>
+  <div *ngFor="let film of films; let i = index;">
+    <ng-container *ngIf="i < 3">
+      <h3>
+        <a routerLink="/films/{{ i }}">{{ film.title }}</a>
+      </h3>
+      <p>{{ film.director }}</p>
+    </ng-container>
+  </div>
+</section>
+
+<h2>
+  <a routerLink="/games">Games</a>
+</h2>
+
+<h2>
+  <a routerLink="/discs">Discs</a>
+</h2>
